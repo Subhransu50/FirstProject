@@ -30,8 +30,14 @@ public abstract class BaseTest {
 		//op.addArguments("--headless");
 		
 		//if(browser.equalsIgnoreCase("chrome"))
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless"); // Run without GUI
+		options.addArguments("--no-sandbox"); // Required in many cloud environments
+		options.addArguments("--disable-dev-shm-usage"); // Avoid /dev/shm issues
+		options.addArguments("--remote-allow-origins=*"); // Fix CORS issues in Chrome 111+
 		
-			driver=new ChromeDriver();
+
+			driver=new ChromeDriver(options);
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
 		driver.manage().window().maximize();
