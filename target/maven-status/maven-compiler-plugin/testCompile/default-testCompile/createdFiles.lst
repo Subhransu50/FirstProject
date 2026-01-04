@@ -1,5 +1,5 @@
+com\org\BaseTest\BaseTest.class
 com\org\testClass\ScenarioTest.class
 com\org\testClass\LoginTest.class
-com\org\BaseTest\BaseTest.class
 com\org\utils\RetryAnalyzer.class
 com\org\testClass\DependsOn.class

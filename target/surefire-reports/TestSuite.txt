@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 26.70 s <<< FAILURE! -- in TestSuite
-com.org.testClass.ScenarioTest.Ok -- Time elapsed: 0.064 s <<< FAILURE!
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 26.39 s <<< FAILURE! -- in TestSuite
+com.org.testClass.ScenarioTest.Ok -- Time elapsed: 0.063 s <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
@@ -40,7 +40,7 @@ java.lang.AssertionError: expected [true] but found [false]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.org.testClass.ScenarioTest.failedTestExample -- Time elapsed: 0.004 s <<< FAILURE!
+com.org.testClass.ScenarioTest.failedTestExample -- Time elapsed: 0.013 s <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)

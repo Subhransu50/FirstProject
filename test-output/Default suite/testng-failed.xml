@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.org.testClass.ScenarioTest">
+      <class name="com.org.testClass.PracticeTest">
         <methods>
           <include name="initialize"/>
-          <include name="failedTestExample"/>
+          <include name="handleShadowRootElement"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- com.org.testClass.ScenarioTest -->
+      </class> <!-- com.org.testClass.PracticeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

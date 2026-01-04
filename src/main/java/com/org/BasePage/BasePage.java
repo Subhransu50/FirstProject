@@ -55,4 +55,9 @@ public abstract class BasePage {
 	{
 		js.executeScript(locator, "arguments[0].click();");
 	}
+	
+	public void scrollIntoView(WebElement ele){
+		//JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView();", ele);
+	}
 }
